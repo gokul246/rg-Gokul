@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-int n,m,i,j,rem;
-scanf("%d %d",&n,&m);
-for(i=n;i<m;i++)
+int a,b,i,j,rem;
+scanf("%d %d",&a,&b);
+for(i=a;i<b;i++)
 {
 int p=i,sum=0;
 for(j=0;p!=0;j++)
