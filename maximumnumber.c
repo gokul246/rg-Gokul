@@ -16,6 +16,6 @@ else
 {
 c=a[i+1];
 }
-printf("%d");
+printf("%d",c);
 return 0;
 }
