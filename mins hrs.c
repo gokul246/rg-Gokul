@@ -1,8 +1,8 @@
 #include<stdio.h>
-#include<conio.h>
-int a;
-scanf("%d",&a);
+int main()
 {
+int a,i;
+scanf("%d",&a);
 for(i=0;(a-50)>0;i++)
 {
 if((a-60)>0)
