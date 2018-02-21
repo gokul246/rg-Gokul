@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int a[30],c;
+int a[30],i,c;
 for(i=0;i<10;i++)
 {
-scanf("%d",&a(i));
+scanf("%d",&a[i]);
 }
 for(i=0;i<9;i++)
 if(a[i]>a[i+1])
