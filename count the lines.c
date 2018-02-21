@@ -11,5 +11,5 @@ for(i=0;a[i]!='\0';i++)
 if(a[i] == ' ')
 count++;    
 }
-printf("number of words in given string are: %d\n");
+printf("number of words in given string are: %d\n",count);
 }
