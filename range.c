@@ -6,13 +6,14 @@ int a,b,i;
 clrscr();
 printf("enter the number:);
 scanf("%d%d",&a,&b);
-for(i=0;i<a;i++);
+for(i=0;a<b;i++)
+if(i=0;i<a;i++);
 {
-printf("\n,a);
+printf("yes");
 }
-for(i=0;i<b;i++);
+if(i=0;i<b;i++);
 {
-printf("\n,b);
+printf("no");
 }
 printf("highest number is...\n");
 getch();
