@@ -1,11 +1,17 @@
 #include<stdio.h>
-int main()
+#include<string.h>
+void main() 
 {
-	int a;
-  clrscr();
-	for(a=1;a<=3;a++)
-	{
-		printf("helloworld \n");
-	}
-	return 0;
+char b[100];
+int i=1,n;
+printf("Enter the string:\t");
+gets(b);
+printf("Enter the number:\n");
+scanf("%d\n",&n);
+while(i<=n)
+{
+printf("%s\n",b);	
+i++;	
+}
+getch();	
 }
