@@ -1,10 +1,11 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
-int a[10],n,i;
+int a[10],i
 clrscr();
 scanf("%d",&n);
+for(i=0;i<n;i++)
+{
 if(a(0)<a(i))
 {
 x=a(i);
@@ -20,6 +21,7 @@ y=a(i);
 else
 {
 y=a(0);
+}
 }
 getch();
 }
