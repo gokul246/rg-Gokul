@@ -1,17 +1,15 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
 int a,b,i,j;
-printf("enter the number");
-scanf("%d%d",&a,&b);
+scanf("%d %d",&a,&b);
 j=a*b;
-if(j%==0)
+if(j%2==0)
 {
-printf("even number is %d");
+printf("even number %d",j);
 }
 else
 {
-printf("odd number is %d");
+printf(" odd number %d",j);
 }
-getch();
 }
