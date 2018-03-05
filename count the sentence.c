@@ -2,13 +2,13 @@
 #include<string.h>
 void main()
 {
-char b[200];
+char a[200];
 int count=0,i;
 printf("enter the string\n");
-scanf("%[^\n]s", b);
-for(i=0;b[i]!='\0';i++)
+scanf("%[^\n]s", a);
+for(i=0;a[i]!='\0';i++)
 {
-if(b[i] == ' ')
+if(a[i] == ' ')
 count++;    
 }
 printf("number of words in given string are: %d\n",count+1);
