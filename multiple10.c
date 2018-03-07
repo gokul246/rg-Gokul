@@ -1,13 +1,12 @@
 #include<stdio.h>
-int main()
+void main()
 {
-int a,b,i;
-printf("enter the two numbers");
-scanf("%d%d",&a&i);
-if(i=0;i<=10;i++);
+int a,i;
+printf("enter the numbers");
+scanf("%d",&a);
+for(i=a;(a%10)!=0;i++)
 {
-b=i*a;
-printf("%d",&b);
+    a++;
 }
-return 0;
+printf("%d",a);
 }
