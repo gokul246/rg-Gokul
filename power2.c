@@ -2,15 +2,15 @@
 #include<conio.h>
 int main()
 {
-int a,i;
+int b,i;
 printf("\n Enter the number");
-scanf("%d",&a);
-for(i=1;a!=pow(2,i);i++)
+scanf("%d",&b);
+for(i=1;b!=pow(2,i);i++)
 {
-a=a+1;
+b=b+1;
 }
 {
-printf("%d",a);
+printf("%d",b);
 }
 return 0;
 }
